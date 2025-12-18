@@ -85,17 +85,9 @@ Edit these parameters in the script:
 
 ```python
 MODEL_PATH    = "image_classifier.keras"  # Model save location
-IMAGE_PATH    = "horse.jpg"              # Image to classify
-EPOCHS        = 30                       # Training epochs
-BATCH_SIZE    = 64                       # Batch size
-```
-
-## 📊 Output Example
-
-**Terminal:**
-```
-✅ Predicted class: horse  (confidence: 0.987234)
-Test Accuracy: 0.82
+IMAGE_PATH    = "add_your_image_path"     # Image to classify
+EPOCHS        = 30                        # Training epochs
+BATCH_SIZE    = 64                        # Batch size
 ```
 
 **Plot:**
@@ -121,10 +113,4 @@ Test Accuracy: 0.82
 - Comment out data augmentation if not needed
 - Use high-resolution images for better preprocessing
 
-## 📄 License
-
-This project is open source and available under the MIT License.
-
----
-
-**Created**: December 2025 | **Framework**: TensorFlow/Keras | **Dataset**: CIFAR-10
+ **Framework**: TensorFlow/Keras | **Dataset**: CIFAR-10
